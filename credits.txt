@@ -1,5 +1,10 @@
-Credits:
-Vanilla Tweaks: https://vanillatweaks.net/ (Many Texture Fixes)
-NegativeSpaceFont: https://github.com/AmberWat/NegativeSpaceFont (Negative Width Spaces)
-Bowmap (Base Pack)
+--- Credits ---
+Bowmap: (Base Pack)
     - Grahp: https://github.com/GrahpDev
+
+Vanilla Tweaks: (Many Texture Fixes)
+    https://vanillatweaks.net/
+NegativeSpaceFont: (Negative Width Spaces)
+    https://github.com/AmberWat/NegativeSpaceFont
+Scoreboard Number Remover: (Removes Numbers on the scoreboard)
+    https://github.com/Greazi-Times/Scoreboard-Number-Remover
