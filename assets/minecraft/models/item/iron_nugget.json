@@ -1,0 +1,98 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/iron_nugget"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 46
+      },
+      "model": "bowmap:items/diamond_chunk"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 47
+      },
+      "model": "bowmap:items/zombie_parts"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 48
+      },
+      "model": "bowmap:items/spider_parts"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 49
+      },
+      "model": "bowmap:items/netherite_upgrade_tablet"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 50
+      },
+      "model": "bowmap:guis/close_menu"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 51
+      },
+      "model": "bowmap:guis/back_arrow"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 52
+      },
+      "model": "bowmap:items/scrap/scrap"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 53
+      },
+      "model": "bowmap:items/scrap/scrap_chunk"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 54
+      },
+      "model": "bowmap:items/scrap/scrap_ball"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 55
+      },
+      "model": "bowmap:items/scrap/condensed_scrap_ball"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 56
+      },
+      "model": "bowmap:items/misc/package"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 57
+      },
+      "model": "bowmap:equipment/swords/zombie_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 58
+      },
+      "model": "bowmap:guis/recipe_book"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 59
+      },
+      "model": "bowmap:guis/check"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 60
+      },
+      "model": "bowmap:guis/x"
+    }
+  ]
+}

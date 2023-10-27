@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/gold_nugget"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 46
+      },
+      "model": "minecraft:item/iron_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 47
+      },
+      "model": "minecraft:item/lime_dye"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 48
+      },
+      "model": "minecraft:item/writable_book"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 49
+      },
+      "model": "minecraft:block/anvil"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 50
+      },
+      "model": "minecraft:block/crafting_table"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 51
+      },
+      "model": "minecraft:item/book"
+    }
+  ]
+}

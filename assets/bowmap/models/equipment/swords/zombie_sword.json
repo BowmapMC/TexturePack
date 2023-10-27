@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "bowmap:item/equipment/swords/zombie_sword"
+  }
+}
