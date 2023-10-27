@@ -1,4 +1,4 @@
 Credits:
-Vanilla Tweaks: https://vanillatweaks.net/
-NegativeSpaceFont: https://github.com/AmberWat/NegativeSpaceFont
-Grahp
+Vanilla Tweaks: https://vanillatweaks.net/ (Many Texture Fixes)
+NegativeSpaceFont: https://github.com/AmberWat/NegativeSpaceFont (Negative Width Spaces)
+Grahp (Base Pack)
