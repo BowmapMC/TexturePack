@@ -93,6 +93,12 @@
         "custom_model_data": 60
       },
       "model": "bowmap:guis/x"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 61
+      },
+      "model": "bowmap:guis/blank"
     }
   ]
 }
