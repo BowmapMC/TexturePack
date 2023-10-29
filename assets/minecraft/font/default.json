@@ -57,7 +57,7 @@
         {
 			"type":"bitmap",
 			"file":"bowmap:guis/hud/hotbarnumbers.png",
-			"ascent":0,
+			"ascent":-47,
 			"height":5,
 			"chars":[
 				"\uE006"
