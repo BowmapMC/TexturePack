@@ -55,6 +55,15 @@
 			]
 		},
         {
+			"type":"bitmap",
+			"file":"bowmap:guis/hud/hotbarnumbers.png",
+			"ascent":10,
+			"height":68,
+			"chars":[
+				"\uE006"
+			]
+		},
+        {
             "type": "bitmap",
             "file": "space:font/space_split.png",
             "ascent": -32768,
