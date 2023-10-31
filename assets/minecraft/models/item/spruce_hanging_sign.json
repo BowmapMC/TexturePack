@@ -1,6 +1,6 @@
 {
-	"parent": "item/hanging_sign",
-	"textures": {
-		"texture": "entity/signs/hanging/spruce"
-	}
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/spruce_hanging_sign"
+  }
 }

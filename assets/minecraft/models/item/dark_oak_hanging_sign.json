@@ -1,6 +1,6 @@
 {
-	"parent": "item/hanging_sign",
-	"textures": {
-		"texture": "entity/signs/hanging/dark_oak"
-	}
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/dark_oak_hanging_sign"
+  }
 }

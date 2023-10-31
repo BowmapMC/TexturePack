@@ -1,6 +1,6 @@
 {
-	"parent": "item/boat",
-    "textures": {
-        "texture": "entity/boat/acacia"
-    }
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/acacia_boat"
+  }
 }

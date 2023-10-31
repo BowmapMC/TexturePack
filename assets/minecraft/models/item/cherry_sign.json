@@ -1,6 +1,6 @@
 {
-	"parent": "item/sign",
-	"textures": {
-		"texture": "entity/signs/cherry"
-	}
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/cherry_sign"
+  }
 }

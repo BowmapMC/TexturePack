@@ -1,6 +1,6 @@
 {
-	"parent": "item/sign",
-	"textures": {
-		"texture": "entity/signs/bamboo"
-	}
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/bamboo_sign"
+  }
 }

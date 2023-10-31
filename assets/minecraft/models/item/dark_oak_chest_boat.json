@@ -1,6 +1,6 @@
 {
-	"parent": "item/chest_boat",
-    "textures": {
-        "boat": "entity/boat/dark_oak"
-    }
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/dark_oak_chest_boat"
+  }
 }

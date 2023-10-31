@@ -1,6 +1,6 @@
 {
-	"parent": "item/lantern",
-	"textures": {
-		"0": "block/soul_lantern"
-	}
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/soul_lantern"
+  }
 }

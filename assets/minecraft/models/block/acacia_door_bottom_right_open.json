@@ -1,3 +1,7 @@
 {
-	"parent": "block/acacia_door_bottom_left"
+  "parent": "minecraft:block/door_bottom_right_open",
+  "textures": {
+    "bottom": "minecraft:block/acacia_door_bottom",
+    "top": "minecraft:block/acacia_door_top"
+  }
 }

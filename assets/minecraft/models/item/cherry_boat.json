@@ -1,6 +1,6 @@
 {
-	"parent": "item/boat",
-    "textures": {
-        "texture": "entity/boat/cherry"
-    }
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/cherry_boat"
+  }
 }

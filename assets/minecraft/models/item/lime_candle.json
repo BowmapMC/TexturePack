@@ -1,7 +1,6 @@
 {
-  "parent": "minecraft:item/template_candle",
+  "parent": "minecraft:item/generated",
   "textures": {
-    "all": "minecraft:block/lime_candle",
-    "particle": "minecraft:block/lime_candle"
+    "layer0": "minecraft:item/lime_candle"
   }
 }

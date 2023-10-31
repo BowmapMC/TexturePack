@@ -1,6 +1,6 @@
 {
-	"parent": "item/hanging_sign",
-	"textures": {
-		"texture": "entity/signs/hanging/cherry"
-	}
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/cherry_hanging_sign"
+  }
 }
