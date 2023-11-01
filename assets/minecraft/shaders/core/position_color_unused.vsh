@@ -24,10 +24,18 @@ void main() {
         switch (toint(ivec3(Color.rgb*255))) {
             //hex colors pulled from decompiled game so theyr accurate
             case 0xE6AF49:
+                vertexColor = vec4(0); //set to invisible
             case 0x77B3E9:
+                vertexColor = vec4(0); //set to invisible
             case 0xA0A0A0:
+                vertexColor = vec4(0); //set to invisible
             case 0xE84F58:
+                vertexColor = vec4(0); //set to invisible
             case 0xEAC864:
+                vertexColor = vec4(0); //set to invisible
+            case 0xCCCCCC:
+                vertexColor = vec4(0); //set to invisible
+            case 0xCFCFCF:
                 vertexColor = vec4(0); //set to invisible
             break;
         }
