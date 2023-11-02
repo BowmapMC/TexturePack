@@ -11,3 +11,5 @@ Scoreboard Number Remover: (Removes Numbers on the scoreboard)
     https://github.com/Greazi-Times/Scoreboard-Number-Remover
 VanillaDefault: (Vanilla Resource Pack)
     https://www.curseforge.com/minecraft/texture-packs/vanilladefault
+Custom Armor Trims: (Custom Armor Textures)
+    https://www.planetminecraft.com/data-pack/custom-armor-trims-prismarine-trims-material-new-patterns-and-more/
