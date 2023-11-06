@@ -60,6 +60,12 @@
       "predicate": {
         "trim_type": 1.0
       }
+    },
+    {
+      "predicate": {
+        "custom_model_data": 46
+      },
+      "model": "bowmap:equipment/armor/helmets/crown"
     }
   ],
   "textures": {
