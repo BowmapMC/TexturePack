@@ -4,11 +4,13 @@
             "type": "paletted_permutations",
             "textures": [
                 "bowmap:trims/models/armor/triforce",
-                "bowmap:trims/models/armor/triforce_leggings"
+                "bowmap:trims/models/armor/triforce_leggings",
+                "bowmap:trims/models/armor/crown"
             ],
             "palette_key": "bowmap:trims/color_palettes/trim_palette",
             "permutations": {
-                "prismarine": "bowmap:trims/color_palettes/prismarine"
+                "prismarine": "bowmap:trims/color_palettes/prismarine",
+                "crown": "bowmap:trims/color_palettes/crown"
             }
         }
     ]
