@@ -55,6 +55,24 @@
 			]
 		},
         {
+			"type":"bitmap",
+			"file":"bowmap:guis/texts/tooltips_warning/tooltips_warning_left.png",
+			"ascent":80,
+			"height":81,
+			"chars":[
+				"\uE006"
+			]
+		},
+        {
+            "type":"bitmap",
+			"file":"bowmap:guis/texts/tooltips_warning/tooltips_warning_right.png",
+			"ascent":80,
+			"height":81,
+			"chars":[
+				"\uE007"
+			]
+        },
+        {
             "type": "bitmap",
             "file": "space:font/space_split.png",
             "ascent": -32768,

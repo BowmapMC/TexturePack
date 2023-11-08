@@ -18,7 +18,10 @@
     "enchantment.level.8":"8",
     "enchantment.level.9":"9",
     "enchantment.level.10":"10",
-    "item.nbt_tags": "\uF813",
+    "item.nbt_tags": "§f\uE006\uF801\uE007",
     "command.unknown.command": "§cUnknown Command, are you sure you typed it in correctly?",
+    "debug.advanced_tooltips.help": "F3 + H = Advanced tooltips\n\n§c§l             WARNING!\n§fAdvanced Tooltips will §c§lBREAK THE GAME!\n§fPlase §cDo Not enable them!§a Thanks :)\n",
+    "debug.advanced_tooltips.off": "Advanced tooltips: hidden §aThanks :)",
+    "debug.advanced_tooltips.on": "Advanced tooltips: shown\n\n§c§l             WARNING!\n§fAdvanced Tooltips will §c§lBREAK THE GAME!\n§fDisable them by pressing §e§lF3+H\n",
     "command.context.parse_error": " %s"
 }
