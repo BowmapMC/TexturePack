@@ -10,7 +10,8 @@
             "palette_key": "bowmap:trims/color_palettes/trim_palette",
             "permutations": {
                 "prismarine": "bowmap:trims/color_palettes/prismarine",
-                "crown": "bowmap:trims/color_palettes/crown"
+                "crown": "bowmap:trims/color_palettes/crown",
+                "generals_crown": "bowmap:trims/color_palettes/generals_crown"
             }
         }
     ]

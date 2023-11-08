@@ -66,6 +66,12 @@
         "custom_model_data": 46
       },
       "model": "bowmap:equipment/armor/helmets/crown"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 47
+      },
+      "model": "bowmap:equipment/armor/helmets/generals_crown"
     }
   ],
   "textures": {
