@@ -45,6 +45,24 @@
         "custom_model_data": 52
       },
       "model": "bowmap:block/spruce_trapdoor_bottom"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 53
+      },
+      "model": "bowmap:block/tinted_glass/left"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 54
+      },
+      "model": "bowmap:block/tinted_glass/right"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 55
+      },
+      "model": "bowmap:block/tinted_glass/center"
     }
   ]
 }
