@@ -73,6 +73,15 @@
 			]
         },
         {
+            "type":"bitmap",
+			"file":"minecraft:item/diamond_sword.png",
+			"ascent":0,
+			"height":16,
+			"chars":[
+				"\uE008"
+			]
+        },
+        {
             "type": "bitmap",
             "file": "space:font/space_split.png",
             "ascent": -32768,
