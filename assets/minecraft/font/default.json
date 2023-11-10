@@ -82,6 +82,15 @@
 			]
         },
         {
+            "type":"bitmap",
+			"file":"bowmap:guis/crafting/book_selected.png",
+			"ascent":0,
+			"height":18,
+			"chars":[
+				"\uE009"
+			]
+        },
+        {
             "type": "bitmap",
             "file": "space:font/space_split.png",
             "ascent": -32768,
