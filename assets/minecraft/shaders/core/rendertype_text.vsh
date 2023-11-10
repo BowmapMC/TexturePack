@@ -28,14 +28,21 @@ void main() {
     texCoord0 = UV0;
     
 	// delete sidebar numbers
-	if(	Position.z == 0.0 && // check if the depth is correct (0 for gui texts)
-			gl_Position.x >= 0.94 && gl_Position.y >= -0.35 && // check if the position matches the sidebar
-			vertexColor.g == 84.0/255.0 && vertexColor.g == 84.0/255.0 && vertexColor.r == 252.0/255.0 && // check if the color is the sidebar red color
-			gl_VertexID <= 3 // check if it's the first character of a string !! if you want two characters removed replace '3' with '7'
-		) gl_Position = ProjMat * ModelViewMat * vec4(ScreenSize + 100.0, 0.0, 0.0); // move the vertices offscreen, idk if this is a good solution for that but vec4(0.0) doesnt do the trick for everyone
+	if(	
+		Position.z == 0.0 // Depth is correct (0 for guis)
+		&&
+		gl_Position.x >= 0.94 && gl_Position.y >= -0.35 // If position matches the sidebar
+		&& 
+		vertexColor.g == 84.0/255.0 && vertexColor.g == 84.0/255.0 && vertexColor.r == 252.0/255.0 // Checks if color is sidebar number red
+		&&
+		gl_VertexID <= 7 // check if it's the first character of a string !! if you want two characters removed replace '3' with '7'
+	) {
+		gl_Position = ProjMat * ModelViewMat * vec4(ScreenSize + 100.0, 0.0, 0.0); // move the vertices offscreen, idk if this is a good solution for that but vec4(0.0) doesnt do the trick for everyone
+	}
 
-	// if (Position.z == 100) {
-	// 	vertexColor = vec4(0);
-	// }
+	// Move chat 2 pixels to the left
+	if (Position.z == 100.03 || Position.z == 100) {
+		gl_Position = ProjMat * ModelViewMat * vec4(Position.x - 2.0, Position.y, Position.z, 1.0);
+	}
 
 }
