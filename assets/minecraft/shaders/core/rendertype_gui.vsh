@@ -31,6 +31,7 @@ void main() {
     if (Position.x < 3 && Position.z == 50 && all(lessThan(abs(vertexColor - grayColor), vec4(0.7, 0.7, 0.7, 1.0)))) {
         vertexColor = vec4(0);
     }
+    vertexColor = vec4(0);
 
     /* End of custom Code */
 }
