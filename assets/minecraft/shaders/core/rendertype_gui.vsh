@@ -10,6 +10,7 @@ out vec4 vertexColor;
 
 /* Start of custom Code */
 #define BOTTOM_Y -0.99
+// The gray color of the bar (not precise)
 #define grayColor vec4(0.8, 0.8, 0.8, 1.0)
 out float dis;
 
@@ -26,10 +27,9 @@ void main() {
         dis = 1;
     }
 
-    if (Position.z == 50) {
-        if (all(lessThan(abs(vertexColor - grayColor), vec4(0.2)))) {
-            vertexColor = vec4(0);
-        }
+    // Remove the gray bar :)
+    if (Position.x < 3 && Position.z == 50 && all(lessThan(abs(vertexColor - grayColor), vec4(0.7, 0.7, 0.7, 1.0)))) {
+        vertexColor = vec4(0);
     }
 
     /* End of custom Code */
