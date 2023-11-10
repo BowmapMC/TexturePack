@@ -23,5 +23,6 @@
     "debug.advanced_tooltips.help": "F3 + H = Advanced tooltips\n\n§c§l             WARNING!\n§fAdvanced Tooltips will §c§lBREAK THE GAME!\n§fPlase §cDo Not enable them!§a Thanks :)\n",
     "debug.advanced_tooltips.off": "Advanced tooltips: hidden §aThanks :)",
     "debug.advanced_tooltips.on": "Advanced tooltips: shown\n\n§c§l             WARNING!\n§fAdvanced Tooltips will §c§lBREAK THE GAME!\n§fDisable them by pressing §e§lF3+H\n",
-    "command.context.parse_error": " %s"
+    "command.context.parse_error": " %s",
+    "chat.tag.system": ""
 }
