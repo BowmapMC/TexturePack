@@ -87,6 +87,12 @@
         "custom_model_data": 59
       },
       "model": "bowmap:block/black_glass/center"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 60
+      },
+      "model": "bowmap:block/sand"
     }
   ]
 }
