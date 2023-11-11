@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "minecraft:block/spruce_trapdoor"
+    "all": "minecraft:block/sand"
   },
   "display": {
     "thirdperson_righthand": {
