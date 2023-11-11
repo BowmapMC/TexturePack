@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "minecraft:block/spruce_trapdoor"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [ 90, 0, 0 ],
+      "translation": [ -6, -2, 4.16 ],
+      "scale": [ 2.01, 2.01, 2.01 ]
+    }
+  }
+}
