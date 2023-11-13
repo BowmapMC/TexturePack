@@ -16,6 +16,8 @@ uniform int FogShape;
 
 uniform vec2 ScreenSize;
 
+#define redColor vec4(0.33, 0.33, 0.98, 1.0)
+
 out float vertexDistance;
 out vec4 vertexColor;
 out vec2 texCoord0;
@@ -31,13 +33,14 @@ void main() {
 	if(	
 		Position.z == 0.0 // Depth is correct (0 for guis)
 		&&
-		gl_Position.x >= 0.94 && gl_Position.y >= -0.35 // If position matches the sidebar
+		gl_Position.x >= 0.93 && gl_Position.y >= -0.35 // If position matches the sidebar
 		&& 
 		vertexColor.g == 84.0/255.0 && vertexColor.g == 84.0/255.0 && vertexColor.r == 252.0/255.0 // Checks if color is sidebar number red
 		&&
 		gl_VertexID <= 7 // check if it's the first character of a string !! if you want two characters removed replace '3' with '7'
 	) {
-		gl_Position = ProjMat * ModelViewMat * vec4(ScreenSize + 100.0, 0.0, 0.0); // move the vertices offscreen, idk if this is a good solution for that but vec4(0.0) doesnt do the trick for everyone
+		// gl_Position = ProjMat * ModelViewMat * vec4(ScreenSize + 100.0, 0.0, 0.0); // move the vertices offscreen, idk if this is a good solution for that but vec4(0.0) doesnt do the trick for everyone
+		vertexColor = vec4(0);	
 	}
 
 	// Move chat 2 pixels to the left
