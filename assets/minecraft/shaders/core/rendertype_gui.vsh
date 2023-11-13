@@ -27,9 +27,9 @@ void main() {
         dis = 1;
     }
 
-    // Remove the gray bar :)
-    if (Position.x < 3 && Position.z == 50 && all(lessThan(abs(vertexColor - grayColor), vec4(0.7, 0.7, 0.7, 1.0)))) {
-        vertexColor = vec4(0);
+    // Remove the gray bar before chat messages
+    if (Position.x < 3 && Position.z == 50 && all(lessThan(abs(vertexColor - grayColor), vec4(0.5, 0.5, 0.5, 1.0)))) { // Checks if its the right color (there's no colors close so it just checks if it's within 50%)
+        vertexColor = vec4(0); // Remove Gray Bar
     }
     
     // This handles the item background if you want to mess with it
