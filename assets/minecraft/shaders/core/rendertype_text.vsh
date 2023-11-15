@@ -44,8 +44,12 @@ void main() {
 	}
 
 	// Move chat 2 pixels to the left
-	if (Position.z == 100.03 || Position.z == 100) {
+	if (Position.z == 100 || Position.z == 100.01 || Position.z == 100.03 || Position.z == 100.04) {
 		gl_Position = ProjMat * ModelViewMat * vec4(Position.x - 2.0, Position.y, Position.z, 1.0);
 	}
+
+	// if (Position.z > 100 && Position.z < 100.05) {
+	// 	vertexColor = vec4(1, 0, 0, 1);
+	// }
 
 }
